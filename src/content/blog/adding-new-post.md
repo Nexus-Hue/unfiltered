@@ -6,9 +6,10 @@ featured: false
 draft: true
 tags:
   - docs
-description: Some rules & recommendations for creating or adding new posts using
-  AstroPaper theme.
+description: Some rules & recommendations for creating or adding new posts using AstroPaper theme.
+pubDatetime: 2024-07-21T00:00:00.000Z
 ---
+
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.
 
 ## Table of contents
