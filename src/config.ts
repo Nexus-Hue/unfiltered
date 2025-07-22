@@ -3,8 +3,8 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://unfiltered-blond.vercel.app/", // replace this with your deployed domain
   author: "Nexus Hue",
-  desc: "Nexus Hue unfiltered blog",
-  title: "Nexus Hue Unfiltered",
+  desc: "NEXUS★HUE's UNFILTERED BLOG",
+  title: "NEXUS Unfiltered",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -18,7 +18,7 @@ export const LOCALE = {
 
 export const LOGO_IMAGE = {
   enable: true,
-  svg: false,  // force PNG usage
+  svg: false, // force PNG usage
   width: 216,
   height: 46,
 };
@@ -30,7 +30,7 @@ export const SOCIALS: SocialObjects = [
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
-  
+
   {
     name: "Instagram",
     href: "https://www.instagram.com/Nexus_Hue/",
@@ -52,15 +52,12 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
 
-
   {
     name: "YouTube",
     href: "https://www.youtube.com/@nexus_hue",
     linkTitle: `${SITE.title} on YouTube`,
     active: false,
   },
-
-
 
   {
     name: "TikTok",
@@ -69,12 +66,10 @@ export const SOCIALS: SocialObjects = [
     active: false,
   },
 
-
   {
     name: "Steam",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Steam`,
     active: false,
   },
-
 ];
